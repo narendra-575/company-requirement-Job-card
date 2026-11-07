@@ -9,7 +9,6 @@ function App() {
     brandname: "Google",
     salary: "$120,000 - $160,000",
     tag1: "Full Time",
-    tag2: "Mumbai, India",
     role: "Frontend Developer"
   },
   {
@@ -18,7 +17,6 @@ function App() {
     brandname: "Microsoft",
     salary: "$100,000 - $140,000",
     tag1: "Full Time",
-    tag2: "Bangalore, India",
     role: "Software Engineer"
   },
   {
@@ -27,7 +25,6 @@ function App() {
     brandname: "Amazon",
     salary: "$90,000 - $130,000",
     tag1: "Part Time",
-    tag2: "Delhi, India",
     role: "UI/UX Designer"
   },
   {
@@ -36,7 +33,6 @@ function App() {
     brandname: "Meta",
     salary: "$130,000 - $180,000",
     tag1: "Full Time",
-    tag2: "Remote",
     role: "React Developer"
   },
   {
@@ -45,7 +41,6 @@ function App() {
     brandname: "Netflix",
     salary: "$110,000 - $150,000",
     tag1: "Contract",
-    tag2: "Hyderabad, India",
     role: "Product Designer"
   },
   {
@@ -54,7 +49,6 @@ function App() {
     brandname: "Spotify",
     salary: "$95,000 - $125,000",
     tag1: "Full Time",
-    tag2: "Pune, India",
     role: "Backend Developer"
   },
   {
@@ -63,7 +57,6 @@ function App() {
     brandname: "Adobe",
     salary: "$105,000 - $145,000",
     tag1: "Part Time",
-    tag2: "Mumbai, India",
     role: "Graphic Designer"
   },
   {
@@ -72,7 +65,6 @@ function App() {
     brandname: "Uber",
     salary: "$115,000 - $155,000",
     tag1: "Full Time",
-    tag2: "Bangalore, India",
     role: "Full Stack Developer"
   },
   {
@@ -81,7 +73,6 @@ function App() {
     brandname: "Airbnb",
     salary: "$85,000 - $120,000",
     tag1: "Internship",
-    tag2: "Remote",
     role: "Mobile App Developer"
   },
   {
@@ -90,7 +81,6 @@ function App() {
     brandname: "Tesla",
     salary: "$125,000 - $170,000",
     tag1: "Full Time",
-    tag2: "Chennai, India",
     role: "Data Scientist"
   }
 ];
@@ -102,7 +92,7 @@ function App() {
           return (
             <div key={idx}>
             <Card brandlogo={elem.brandlogo}  brandname={elem.brandname} salary={elem.salary}
-             role={elem.role} tag1={elem.tag1} tag2={elem.tag2}/>
+             role={elem.role} tag1={elem.tag1} />
              </div>
        ) })}
        

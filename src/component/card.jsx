@@ -1,4 +1,3 @@
-import {Bookmark} from 'lucide-react'
 
 const Card = (props) => {
     console.log(props.brandname)
